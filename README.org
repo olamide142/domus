@@ -1,0 +1,11 @@
+#+OPTIONS: ^:nil
+* Some notes for you...
+
+1. Start the server first, then the DB.
+   1. Everything else can be started in any order
+2. The inspector is not part of the system, but there to help you
+   1. Use one of: make run_db, make run_server, make run_heating, make run_interface
+   2. You will then have a prompt on a machine sharing a network interface with the target
+   3. Use whatever tools you need to investigate
+   4. I left a couple of things to help inside the bash history, so
+      you might try pressing the up arrow...
